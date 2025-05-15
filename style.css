@@ -1,0 +1,149 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    color: #f5a623;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f5a623;
+  }
+  
+  /* Main Layout */
+  main {
+    margin-top: 40px;
+  }
+  
+  #intro {
+    margin-bottom: 40px;
+  }
+  
+  #intro h2 {
+    font-size: 1.5rem;
+    color: #f5a623;
+  }
+  
+  #intro p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card h3 {
+    margin: 10px 0 5px;
+    color: #f5a623;
+    font-size: 1.2rem;
+  }
+  
+  .project-card p {
+    font-size: 0.95rem;
+  }
+  
+  /* Contact Page */
+  #contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #contact h2 {
+    font-size: 1.5rem;
+    color: #f5a623;
+    margin-bottom: 10px;
+  }
+  
+  #contact ul {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #contact li {
+    margin: 10px 0;
+  }
+  
+  #contact a {
+    color: #f5a623;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-photo {
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #f5a623;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+  }
+  
