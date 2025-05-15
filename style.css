@@ -146,6 +146,11 @@
     font-size: 0.85rem;
     color: #888;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
   
   /* Light mode overrides */
   body.light-mode {
@@ -184,5 +189,58 @@
   
   body.light-mode #theme-toggle {
     color: #121212;
+  }
+  
+  /* Responsive styles */
+    @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .project-card {
+      padding: 15px;
+    }
+  
+    #theme-toggle {
+      align-self: flex-end;
+      margin-top: 10px;
+    }
+  
+    #contact {
+      padding: 10px;
+    }
+  
+    .profile-photo {
+      width: 120px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 1.4rem;
+    }
+  
+    nav a {
+      font-size: 1rem;
+    }
+  
+    .project-card h3 {
+      font-size: 1.1rem;
+    }
+  
+    .project-card p {
+      font-size: 0.9rem;
+    }
   }
   
