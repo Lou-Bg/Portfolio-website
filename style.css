@@ -147,3 +147,30 @@
     color: #888;
   }
   
+  /* Light mode overrides */
+  body.light-mode {
+    background-color: #fdfdfd;
+    color: #121212;
+  }
+  
+  body.light-mode header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  body.light-mode nav a {
+    color: #121212;
+  }
+  
+  body.light-mode nav a:hover {
+    color: #f5a623;
+  }
+  
+  body.light-mode .project-card {
+    background-color: #f1f1f1;
+    color: #121212;
+  }
+  
+  body.light-mode footer {
+    color: #555;
+  }
+  
